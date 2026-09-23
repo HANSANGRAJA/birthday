@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    >
+
+    <meta
+        name="description"
+        content="A little birthday surprise ♡"
+    >
+
+    <meta name="theme-color" content="#f5d9dc">
+
+    <title>For You ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blob blob-pink"></div>
+        <div class="blob blob-green"></div>
+        <div class="blob blob-brown"></div>
+    </div>
+
+    <!-- Floating decorations -->
+    <div class="floating-hearts"></div>
+
+
+    <!-- MAIN -->
+    <main class="birthday-container">
+
+        <!-- Top -->
+        <header class="top-bar">
+
+            <div class="logo">
+                <span>♡</span>
+                <p>for you</p>
+            </div>
+
+            <div class="counter">
+                <span id="currentNumber">01</span>
+                <span class="line"></span>
+                <span>07</span>
+            </div>
+
+        </header>
+
+
+        <!-- SLIDES -->
+        <section class="slides">
+
+
+            <!-- ================= PAGE 1 ================= -->
+
+            <article class="slide active">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="img/1.png"
+                            alt="Foto 1"
+                        >
+                    </div>
+
+                    <span class="photo-number">01</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        a little something for you
+                    </span>
+
+                    <h1>
+                        Happy<br>
+                        Birthday <span>♡</span>
+                    </h1>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Selamat ulang tahun yaa.
+                        Mungkin ini cuma hal kecil,
+                        tapi aku bikinnya emang khusus buat kamu.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Mulai</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 2 ================= -->
+
+            <article class="slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="img/2.png"
+                            alt="Foto 2"
+                        >
+                    </div>
+
+                    <span class="photo-number">02</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        sedikit tentang aku
+                    </span>
+
+                    <h2>
+                        Aku emang<br>
+                        nggak jago ngomong
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Kalau disuruh ngomong langsung,
+                        kadang aku malah bingung mau ngomong apa.
+                        Jadi daripada malah jadi aneh,
+                        aku tulis aja di sini.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Lanjut</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 3 ================= -->
+
+            <article class="slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="3.png"
+                            alt="Foto 3"
+                        >
+                    </div>
+
+                    <span class="photo-number">03</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        about you
+                    </span>
+
+                    <h2>
+                        Ada aja alasan<br>
+                        buat inget kamu
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Dari sekian banyak orang yang aku kenal,
+                        entah kenapa kamu punya tempat sendiri.
+                        Kadang dari hal kecil aja,
+                        tiba-tiba bisa bikin aku inget sama kamu.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Lanjut</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 4 ================= -->
+
+            <article class="slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="img/4.png"
+                            alt="Foto 4"
+                        >
+                    </div>
+
+                    <span class="photo-number">04</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        for your new chapter
+                    </span>
+
+                    <h2>
+                        Semoga tahun ini<br>
+                        lebih baik
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Semoga apa yang lagi kamu kejar
+                        bisa pelan-pelan tercapai.
+                        Yang bikin capek semoga jadi lebih ringan,
+                        dan yang bikin bahagia semoga makin banyak.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Lanjut</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 5 ================= -->
+
+            <article class="slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="5.png"
+                            alt="Foto 5"
+                        >
+                    </div>
+
+                    <span class="photo-number">05</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        please remember
+                    </span>
+
+                    <h2>
+                        Jangan terlalu<br>
+                        keras sama diri sendiri
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        kamu nggak harus selalu kuat.
+                        Kalau capek ya istirahat.
+                        Kalau lagi nggak baik-baik aja,
+                        nggak apa-apa juga.
+                        Pelan-pelan aja, nggak harus semuanya sekaligus.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Lanjut</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 6 ================= -->
+
+            <article class="slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="img/6.png"
+                            alt="Foto 6"
+                        >
+                    </div>
+
+                    <span class="photo-number">06</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        
+                    </span>
+
+                    <h2>
+                        aku seneng<br>
+                        bisa kenal sama kamu
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Mungkin aku nggak selalu nunjukin,
+                        tapi aku cukup menghargai keberadaan kamu.
+                        Dan kalau boleh jujur,
+                        aku berharap kita bisa tetap dekat
+                        dan punya lebih banyak cerita.
+                    </p>
+
+                    <button
+                        class="next-button"
+                        onclick="nextSlide()"
+                    >
+                        <span>Satu lagi</span>
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ================= PAGE 7 ================= -->
+
+            <article class="slide final-slide">
+
+                <div class="photo-section">
+                    <div class="photo-frame">
+                        <img
+                            src="img/7.png"
+                            alt="Foto 7"
+                        >
+                    </div>
+
+                    <span class="photo-number">07</span>
+                </div>
+
+
+                <div class="message-section">
+
+                    <span class="eyebrow">
+                        last page ♡
+                    </span>
+
+                    <h2>
+                        Happy Birthday,<br>
+                        kamu.
+                    </h2>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        Semoga di umur yang baru,
+                        kamu ketemu lebih banyak hal baik,
+                        lebih banyak alasan buat senyum,
+                        dan lebih banyak momen yang bisa kamu kenang.
+                    </p>
+
+                    <p class="signature">
+                        Jaga diri baik-baik ya.
+                        <br><br>
+                        
+                    </p>
+
+                    <button
+                        class="next-button replay-button"
+                        onclick="restart()"
+                    >
+                        <span>♡ Lihat Lagi</span>
+                    </button>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- BOTTOM NAVIGATION -->
+
+        <footer class="bottom-bar">
+
+            <button
+                id="prevButton"
+                class="nav-button"
+                onclick="previousSlide()"
+                aria-label="Halaman sebelumnya"
+            >
+                ←
+            </button>
+
+
+            <div class="progress">
+
+                <div class="progress-track">
+                    <div
+                        id="progressBar"
+                        class="progress-fill"
+                    ></div>
+                </div>
+
+                <span id="progressText">
+                    01 / 07
+                </span>
+
+            </div>
+
+
+            <button
+                id="nextButton"
+                class="nav-button"
+                onclick="nextSlide()"
+                aria-label="Halaman berikutnya"
+            >
+                →
+            </button>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
